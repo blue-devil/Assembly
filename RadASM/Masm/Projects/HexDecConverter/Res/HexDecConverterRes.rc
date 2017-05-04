@@ -1,0 +1,5 @@
+#define MANIFEST 						24
+#define XPTHEME							1
+#define sctIkon							5001
+XPTHEME					MANIFEST  DISCARDABLE "Res/XPTHEME.XML"
+sctIkon					ICON      DISCARDABLE "Res/sct-siyah.ico"
