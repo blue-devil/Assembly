@@ -1,0 +1,3 @@
+#include "Res/TestDiyalogDlg.rc"
+#include "Res/AnimateDiyalogDlg.rc"
+#include "Res/AnimateDiyalogRes.rc"
