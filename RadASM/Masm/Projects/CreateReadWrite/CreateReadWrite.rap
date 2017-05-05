@@ -1,0 +1,123 @@
+[Project]
+Assembler=masm
+Type=Win32 App
+Description=Using CreateFile ReadFile WriteFile APIs
+Backup=$P\Bak\
+Group=1
+GroupExpand=1
+Debug=0
+[Files]
+1=CreateReadWrite.Asm
+2=CreateReadWrite.Inc
+3=CreateReadWrite.Txt
+[MakeFiles]
+0=CreateReadWrite.rap
+1=CreateReadWrite.rc
+2=CreateReadWrite.asm
+3=CreateReadWrite.obj
+4=CreateReadWrite.res
+5=CreateReadWrite.exe
+6=CreateReadWrite.def
+7=CreateReadWrite.dll
+8=CreateReadWrite.txt
+9=CreateReadWrite.lib
+10=CreateReadWrite.mak
+11=CreateReadWrite.hla
+12=CreateReadWrite.com
+13=CreateReadWrite.ocx
+14=CreateReadWrite.idl
+15=CreateReadWrite.tlb
+16=CreateReadWrite.sys
+[MakeDef]
+Menu=0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+1=4,O,$B\RC.EXE /v,1
+2=3,O,$B\ML.EXE /c /coff /Cp /nologo /I"$I",2
+3=5,O,$B\LINK.EXE /SUBSYSTEM:CONSOLE /RELEASE /VERSION:4.0 /LIBPATH:"$L" /OUT:"$5",3
+4=0,0,,5
+5=rsrc.obj,O,$B\CVTRES.EXE,rsrc.res
+6=*.obj,O,$B\ML.EXE /c /coff /Cp /nologo /I"$I",*.asm
+7=0,0,"$E\OllyDbg",5
+11=4,O,$B\RC.EXE /v,1
+12=3,O,$B\ML.EXE /c /coff /Cp /Zi /Zd /nologo /I"$I",2
+13=5,O,$B\LINK.EXE /SUBSYSTEM:CONSOLE /DEBUG /VERSION:4.0 /LIBPATH:"$L" /OUT:"$5",3
+14=0,0,,5
+15=rsrc.obj,O,$B\CVTRES.EXE,rsrc.res
+16=*.obj,O,$B\ML.EXE /c /coff /Cp /Zi /Zd /nologo /I"$I",*.asm
+17=0,0,"$E\OllyDbg",5
+[Group]
+Group=Assembly,Resources,Misc
+1=1
+2=1
+3=3
+[AutoLoad]
+AutoLoad=1,2
+[RADebugBP]
+2=
+1=
+[VersionControl]
+Settings=1246
+Milestones=129
+MilestoneEvery=10
+MilestoneEveryCurrent=0
+MilestoneOnBuild=0.0.0.0
+MilestoneOnTime=2
+MilestoneOnDate=0
+MilestoneOnDateWhen=1
+MilestoneOnDateStatus=0
+MilestoneOnDateDate=4
+MilestoneOnDateTimeYear=2017
+MilestoneOnDateTimeMonth=5
+MilestoneOnDateTimeDate=4
+MilestoneOnDateTimeHour=17
+MilestoneOnDateTimeMin=3
+MilestoneOnDateTimeSec=48
+MilestoneOnDateTimeStatus=0
+BackupLocation=C:\masm32\RadASM\Masm\Projects\VCBackups\
+CompressionLevel=0
+DefaultComment=Project $N, $Z, Backup Created On $D At $T.
+ExcludeExt1=\
+ExcludeExt2=\
+ExcludeExt3=\
+ExcludeExt4=\
+FileVerLength=4
+FileVer2Range=0
+FileVer3Range=0
+FileVer4Range=0
+ProductVerLength=4
+ProductVer2Range=0
+ProductVer3Range=0
+ProductVer4Range=0
+[Colref]
+0=00FFFFFF
+1=00FFFFFF
+2=00FFFFFF
+3=00FFFFFF
+4=00FFFFFF
+5=00FFFFFF
+6=00FFFFFF
+7=00FFFFFF
+[PTimer]
+PTimer=10694735
+[Collapse]
+1=
+2=
+3=
+[Size]
+1=0,0,0,0,2433
+2=0,0,0,0,2919
+3=0,0,806,1050,2056
+[GroupExpand]
+GroupExpand=1,0,0,0
+[BookMark]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+[BreakPoint]
+0=
