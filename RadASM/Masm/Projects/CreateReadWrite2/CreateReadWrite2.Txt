@@ -1,0 +1,35 @@
+; ººº¹¹º¹º¹º¹º¹¹¹ººº¹º¹º¹º¹ººº¹º¹¹¹º¹º¹¹¹º¹º¹¹¹ºº
+; º¹|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¹º
+; ºº| ÜÜÛÛÛÛÛÛÛÛÛ   ÜÜÛÛÛÛÛÛÛÜÜ   ÜÛÛÛÛÛÛÛÛÛÜ |º¹
+; º¹| ÛÛÛÛÛÛÛÛÛßß   ÛÛÛÛÛÛÛÛÛßß   ßÛÛÛÛÛÛÛÛÛß |¹¹
+; ºº| ÛÛ            ÛÛß               ÛÛÛ     |¹º
+; ºº| ÛÛ            ÛÛ                ÛÛÛ     |ºº
+; ºº| ÛÛÛÛÛÛÛÛÛÜÜ   ÛÛ                ÛÛÛ     |¹¹
+; ¹¹| ßßÛÛÛÛÛÛÛÛÛ   ÛÛ                ÛÛÛ     |¹º
+; º¹|          ÛÛ   ÛÛ                ÛÛÛ     |¹¹
+; ºº|          ÛÛ   ÛÛÜ               ÛÛÛ     |¹¹
+; ¹¹| ÜÜÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛÜÜ       ÛÛÛ     |¹º
+; ºº| ÛÛÛÛÛÛÛÛÛßß   ßßÛÛÛÛÛÛÛßß       ßÛß     |ºº
+; ¹¹|                                         |¹¹
+; º¹|                home of secret reversers®|º¹
+; ¹¹|_________________________________________|¹¹
+; CreateFile ReadFile WriteFile Uygulaması 2
+; _______________________________________________________________________________
+; Yazar		: BlueDeviL <bluedevil@sctzine.com>
+; Tester	: ErrorInside <errorinside@sctzine.com>
+; IDE		: RADAssembler v2.2.2.2 <http://masm32.com/board/index.php?board=24.0>
+; Taslak	: BlueDeviL // SCT
+; Tarih  	: 05.05.2017
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;																  www.sctzine.com
+;											 öldürmeyen her darbe güce güç katar!
+
+->	05.05.2017	CreateFile ReadFile WriteFile Uygulaması 2
+				
+	Esenlikler! 
+	Bugün hazırladığım kod örneğimizde CreateFile ReadFile ve WriteFile APIlerini
+	ele aldım. Umarım kaynak kodu incelerken zevk alırsınız. MSDN ağından mutlaka
+	bu APIlerin ayrıntılarını okuyun. Sonra da okuduklarınızı uygulayın. Benim ya
+	zdığım kodlar sadece birer örnek hata olabilir. Daha iyisini yapanların kayna
+	k kodlarını bekliyorum. Sağlıcakla..
+	BlueDeviL // SCT
