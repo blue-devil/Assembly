@@ -1,0 +1,32 @@
+#include "Res/KafaKiranRes.rc"
+#include "Res/KafaKiranVer.rc"
+#define dialogANA 101
+#define imgSCT 5000
+#define grpSCT 4000
+#define lblHedefDosya 4001
+#define btnYAMA 1001
+#define btnHAKKINDA 1002
+#define btnCIKIS 1003
+#define lblWEB 4002
+#define lblTARIH 4003
+#define lblYAZAR 4004
+#define lblDosyaBoyutu 4005
+#define lblNOT 4006
+dialogANA DIALOGEX 6,6,177,186
+CAPTION "KafaKýran Patcher v1.0"
+FONT 8,"MS Sans Serif",0,0
+STYLE 0x10CE0800
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "#5000",imgSCT,"Static",0x5000020E,4,3,166,61,0x00000000
+  CONTROL "",grpSCT,"Button",0x50000007,4,66,166,118,0x00000000
+  CONTROL "Hedef Dosya: filename.exe",lblHedefDosya,"Static",0x50000000,10,75,110,9,0x00000000
+  CONTROL "Patch",btnYAMA,"Button",0x50010000,6,166,53,15,0x00020000
+  CONTROL "Hakkýnda",btnHAKKINDA,"Button",0x50010000,60,166,53,15,0x00020000
+  CONTROL "Çýkýþ",btnCIKIS,"Button",0x50010000,114,166,53,15,0x00020000
+  CONTROL "WEB: www.sctzine.com",lblWEB,"Static",0x50000000,35,95,84,9,0x00000000
+  CONTROL "Çýkýþ Tarihi: 29/07/2007",lblTARIH,"Static",0x50000000,17,115,102,9,0x00000000
+  CONTROL "Cracker: BlueDeviL //SCT",lblYAZAR,"Static",0x50000000,27,85,92,9,0x00000000
+  CONTROL "Dosya Boyutu: 2560 bayt",lblDosyaBoyutu,"Static",0x50000000,7,105,112,9,0x00000000
+  CONTROL "Sürüm Notlarý \n\nYama dosyasýný programýn olduðu klasöre kopyalayýn ve çalýþtýrýn. :)",lblNOT,"Static",0x50001000,10,127,154,33,0x00000000
+END

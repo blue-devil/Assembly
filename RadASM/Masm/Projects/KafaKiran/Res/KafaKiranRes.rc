@@ -1,0 +1,4 @@
+#define imgSCT							5000
+#define icoSCT							5001
+imgSCT					BITMAP    DISCARDABLE "Res/logomavi.bmp"
+icoSCT					ICON      DISCARDABLE "Res/sct1.ico"
