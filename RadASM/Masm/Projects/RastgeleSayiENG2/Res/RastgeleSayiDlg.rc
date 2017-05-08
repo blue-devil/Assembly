@@ -1,0 +1,50 @@
+#define pencere 101
+#define edtGTC 1002
+#define edtRDTSC 1003
+#define btnUret 1006
+#define btnHakkinda 1007
+#define btnCikis 1008
+#define lblLINK 1009
+#define lblGTC 1001
+#define lblRDTSC 1004
+#define edtNRANDOM 1012
+#define lblNrandom 1013
+#define lblBirOn 1005
+#define edtBirOn 1010
+#define edtCryptGenRnd 1011
+#define lblCryptGenRnd 1014
+#define edtIrvine32 1015
+#define lblMasmBasic 1016
+#define edtIrvine322 1017
+#define IDC_STC1 1018
+#define IDC_STC2 1019
+#define lblRand 1020
+#define edtRand 1021
+pencere DIALOGEX 6,6,180,241
+CAPTION "Random Generator v0.3"
+FONT 8,"MS Sans Serif",0,0
+STYLE 0x90CA0A03
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "",edtGTC,"Edit",0x50010000,8,18,166,13,0x00000200
+  CONTROL "",edtRDTSC,"Edit",0x50010000,8,48,166,13,0x00000200
+  CONTROL "Generate",btnUret,"Button",0x50018000,10,210,53,15,0x00000000
+  CONTROL "About",btnHakkinda,"Button",0x50018000,66,210,53,15,0x00000000
+  CONTROL "Close",btnCikis,"Button",0x50018000,122,210,53,15,0x00000000
+  CONTROL "http://www.sctzine.com/",lblLINK,"Static",0x50001100,50,228,82,9,0x00020000
+  CONTROL "Generating Random by: GetTickCount API",lblGTC,"Static",0x50000000,8,7,160,9,0x00000000
+  CONTROL "Generating Random by: RDTSC Func.",lblRDTSC,"Static",0x50000000,8,36,160,9,0x00000000
+  CONTROL "",edtNRANDOM,"Edit",0x50010000,8,77,166,13,0x00000200
+  CONTROL "Generating Random by: nrandom Func.",lblNrandom,"Static",0x50000000,8,66,160,9,0x00000000
+  CONTROL "Random Number between 1 -10",lblBirOn,"Static",0x50000000,10,96,160,9,0x00000000
+  CONTROL "",edtBirOn,"Edit",0x50010000,8,107,166,13,0x00000200
+  CONTROL "",edtCryptGenRnd,"Edit",0x50010000,8,136,166,13,0x00000200
+  CONTROL "Generating Random by: CryptGenRandom()",lblCryptGenRnd,"Static",0x50000000,10,125,160,9,0x00000000
+  CONTROL "",edtIrvine32,"Edit",0x50010000,8,166,80,13,0x00000200
+  CONTROL "Generating Random by: Irvine32Mb library",lblMasmBasic,"Static",0x50000000,10,155,160,9,0x00000000
+  CONTROL "",edtIrvine322,"Edit",0x50010000,94,166,80,13,0x00000200
+  CONTROL "",IDC_STC1,"Static",0x50001000,8,234,41,1,0x00000000
+  CONTROL "",IDC_STC2,"Static",0x50001000,132,234,40,1,0x00000000
+  CONTROL "Generating Random by: Rand() Function",lblRand,"Static",0x50000000,10,182,160,9,0x00000000
+  CONTROL "",edtRand,"Edit",0x50010000,8,193,166,13,0x00000200
+END
