@@ -1,0 +1,3 @@
+#include "Res/RastgeleRealSayiDlg.rc"
+#include "Res/RastgeleRealSayiVer.rc"
+#include "Res/RastgeleRealSayiRes.rc"

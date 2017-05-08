@@ -1,0 +1,28 @@
+#define pencere 101
+#define IDC_STC2 1009
+#define grp0danBire 1001
+#define grpBirdenOna 1002
+#define lst0dan1e 1003
+#define lst1den10a 1004
+#define btnKapat 1005
+#define btnHakkinda 1006
+#define btnUret 1007
+#define lblLINK 1008
+#define IDC_STC3 1010
+pencere DIALOGEX 6,6,226,156
+CAPTION "[SCT]Random Real Number Generator"
+FONT 8,"MS Sans Serif",0,0
+STYLE 0x90CA0A03
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "0 - 1 Real Numbers",grp0danBire,"Button",0x50000007,2,3,108,122,0x00000000
+  CONTROL "1-10 Real Numbers",grpBirdenOna,"Button",0x50000007,114,3,108,122,0x00000000
+  CONTROL "",lst0dan1e,"ListBox",0x50210141,8,14,96,105,0x00000200
+  CONTROL "",lst1den10a,"ListBox",0x50210141,120,14,96,105,0x00000200
+  CONTROL "Kapat",btnKapat,"Button",0x50010000,168,127,53,15,0x00000000
+  CONTROL "Hakkýnda",btnHakkinda,"Button",0x50010000,112,127,53,15,0x00000000
+  CONTROL "Üret",btnUret,"Button",0x50010000,56,127,53,15,0x00000000
+  CONTROL "http://www.sctzine.com/",lblLINK,"Static",0x50001100,74,144,81,9,0x00020000
+  CONTROL "IDC_STC",IDC_STC2,"Static",0x50001000,2,147,72,1,0x00000000
+  CONTROL "IDC_STC",IDC_STC3,"Static",0x50001000,156,147,72,1,0x00000000
+END
