@@ -40,10 +40,6 @@ main proc
 	invoke SetConsoleTitle,offset konsolBaslik		;Konsolumuza baþlýk koyalým
 	invoke ClearScreen								;ekraný temizler
 	print offset sctGS
-	invoke GlobalAlloc,GMEM_MOVEABLE or GMEM_ZEROINIT,BELLEKALANI
-	mov hBellek,eax
-	invoke GlobalLock,hBellek
-	mov pTampon,eax
 	
 	invoke CreateFile,offset pDosyaYolu,GENERIC_READ or GENERIC_WRITE,FILE_SHARE_READ or FILE_SHARE_WRITE,0,OPEN_ALWAYS,FILE_ATTRIBUTE_NORMAL,NULL
 	mov hDosya,eax
@@ -53,14 +49,21 @@ main proc
 	.elseif eax == ERROR_FILE_EXISTS
 		print cat$(chr$("[ UYARI ] * Dosya zaten yaratilmis! Hata Kodu: "), str$(eax),chr$(13,10))
 	.elseif eax == ERROR_ALREADY_EXISTS
+		invoke CloseHandle,offset hDosya
+		invoke CreateFile,offset pDosyaYolu,GENERIC_READ or GENERIC_WRITE,FILE_SHARE_READ or FILE_SHARE_WRITE,0,OPEN_ALWAYS,FILE_ATTRIBUTE_NORMAL,NULL
 		print cat$(chr$("[ UYARI ] * Dosya zaten yaratilmis! Hata Kodu: "), str$(eax),chr$(13,10))
 		invoke ReadFile,hDosya,offset genelTampon,100,offset NumOfBytesRead,NULL
 		invoke StdOut,offset genelTampon
 		invoke CloseHandle,hDosya					;handle'ý kapatmayý unutmayalým
 	.else
 		invoke lstrlen,offset strMetin				;yazdýracaðýmýz metnin uzunluðunu eax'e döndürüyor
+		mov intUzunluk,eax
 		invoke WriteFile,hDosya,offset strMetin,eax,offset NumOfBytesWritten,NULL
-		invoke StdOut,offset strMetin
+		invoke SetFilePointerEx,hDosya,NULL,NULL,FILE_BEGIN,0	;WriteFile ile metni yazdýrdýktan sonra file pointer dosyanýn sonunda
+																;pointer'ý dosyanýn en baþýna aldýrýyorum
+																;böylece okuma iþlemini en baþýndan yapacaðým
+		invoke ReadFile,hDosya,offset genelTampon,intUzunluk,offset NumOfBytesRead,NULL
+		invoke StdOut,offset genelTampon
 		invoke CloseHandle,hDosya					;handle'ý kapatmayý unutmayalým
 	.endif
 	

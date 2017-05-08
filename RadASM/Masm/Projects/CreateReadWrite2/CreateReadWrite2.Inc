@@ -46,6 +46,7 @@ includelib kernel32.lib
 	konsolBaslik		db	"[SCT]CreateFile ReadFile WriteFile Uygulamasi 2",0 
 	strMetin			db	"[ OLDU  ] * Burayi okuyorsan islem basarili",13,10,0
 	pDosyaYolu			db	"deneme.txt",0	;exenin olduðu dizine yaratacak
+	szStr				dd	0DEADBEEFh
 
 ;veri içeriði tanýmlanmayan deðiþkenler
 .data?
