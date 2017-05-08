@@ -1,0 +1,4 @@
+#define ikon							5001
+#define MANIFEST 						24
+ikon					ICON      DISCARDABLE "Res/Icon.ico"
+1						MANIFEST  DISCARDABLE "Res/XPTHEME.XML"

@@ -1,0 +1,50 @@
+#define pencere 101
+#define edtGTC 1002
+#define edtRDTSC 1003
+#define btnUret 1006
+#define btnHakkinda 1007
+#define btnCikis 1008
+#define lblGTC 1001
+#define lblRDTSC 1004
+#define edtNRANDOM 1012
+#define lblNrandom 1013
+#define lblBirOn 1005
+#define edtBirOn 1010
+#define edtCryptGenRnd 1011
+#define lblCryptGenRnd 1014
+#define edtIrvine32 1015
+#define lblMasmBasic 1016
+#define edtIrvine322 1017
+#define IDC_STC1 1018
+#define edtRand 1019
+#define IDC_STC2 1020
+#define IDC_STC3 1021
+#define lblLINK 1009
+pencere DIALOGEX 6,6,180,244
+CAPTION "Rastgele Sayý Üreteci v0.3"
+FONT 8,"MS Sans Serif",0,0
+STYLE 0x90CA0A03
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "",edtGTC,"Edit",0x50010000,8,18,166,13,0x00000200
+  CONTROL "",edtRDTSC,"Edit",0x50010000,8,48,166,13,0x00000200
+  CONTROL "Üret",btnUret,"Button",0x50018000,8,212,53,15,0x00000000
+  CONTROL "Hakkýnda",btnHakkinda,"Button",0x50018000,64,212,53,15,0x00000000
+  CONTROL "Çýkýþ",btnCikis,"Button",0x50018000,120,212,53,15,0x00000000
+  CONTROL "http://www.sctzine.com/",lblLINK,"Static",0x50001100,50,230,82,9,0x00020000
+  CONTROL "GetTickCount APIsi kullanýlarak",lblGTC,"Static",0x50000000,8,7,160,9,0x00000000
+  CONTROL "RDTSC Fonksiyonu ile",lblRDTSC,"Static",0x50000000,8,36,160,9,0x00000000
+  CONTROL "",edtNRANDOM,"Edit",0x50010000,8,77,166,13,0x00000200
+  CONTROL "nrandom Fonksiyonu ile",lblNrandom,"Static",0x50000000,8,66,160,9,0x00000000
+  CONTROL "Sadece 1ile 10 arasýndaki sayýlar",lblBirOn,"Static",0x50000000,10,96,160,9,0x00000000
+  CONTROL "",edtBirOn,"Edit",0x50010000,8,107,166,13,0x00000200
+  CONTROL "",edtCryptGenRnd,"Edit",0x50010000,8,136,166,13,0x00000200
+  CONTROL "CryptGenRandom()  fonksiyonu ile",lblCryptGenRnd,"Static",0x50000000,10,125,160,9,0x00000000
+  CONTROL "",edtIrvine32,"Edit",0x50010000,8,166,80,13,0x00000200
+  CONTROL "Irvine32Mb kütüphanesi kullanarak",lblMasmBasic,"Static",0x50000000,10,155,160,9,0x00000000
+  CONTROL "",edtIrvine322,"Edit",0x50010000,94,166,80,13,0x00000200
+  CONTROL "Rand()  fonksiyonu ile (MasmBasic kütüphanesi)",IDC_STC1,"Static",0x50000000,10,184,160,9,0x00000000
+  CONTROL "",edtRand,"Edit",0x50010000,8,195,166,13,0x00000200
+  CONTROL "IDC_STC",IDC_STC2,"Static",0x50001200,10,234,40,1,0x00000000
+  CONTROL "IDC_STC",IDC_STC3,"Static",0x50001000,132,234,40,1,0x00000000
+END
