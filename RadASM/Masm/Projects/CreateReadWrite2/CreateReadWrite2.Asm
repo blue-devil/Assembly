@@ -1,31 +1,31 @@
-; ººº¹¹º¹º¹º¹º¹¹¹ººº¹º¹º¹º¹ººº¹º¹¹¹º¹º¹¹¹º¹º¹¹¹ºº
-; º¹|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¹º
-; ºº| ÜÜÛÛÛÛÛÛÛÛÛ   ÜÜÛÛÛÛÛÛÛÜÜ   ÜÛÛÛÛÛÛÛÛÛÜ |º¹
-; º¹| ÛÛÛÛÛÛÛÛÛßß   ÛÛÛÛÛÛÛÛÛßß   ßÛÛÛÛÛÛÛÛÛß |¹¹
-; ºº| ÛÛ            ÛÛß               ÛÛÛ     |¹º
-; ºº| ÛÛ            ÛÛ                ÛÛÛ     |ºº
-; ºº| ÛÛÛÛÛÛÛÛÛÜÜ   ÛÛ                ÛÛÛ     |¹¹
-; ¹¹| ßßÛÛÛÛÛÛÛÛÛ   ÛÛ                ÛÛÛ     |¹º
-; º¹|          ÛÛ   ÛÛ                ÛÛÛ     |¹¹
-; ºº|          ÛÛ   ÛÛÜ               ÛÛÛ     |¹¹
-; ¹¹| ÜÜÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛÜÜ       ÛÛÛ     |¹º
-; ºº| ÛÛÛÛÛÛÛÛÛßß   ßßÛÛÛÛÛÛÛßß       ßÛß     |ºº
-; ¹¹|                                         |¹¹
-; º¹|                home of secret reversers®|º¹
-; ¹¹|_________________________________________|¹¹
-; CreateFile ReadFile WriteFile Uygulaması 2
+; ÂºÂºÂºÂ¹Â¹ÂºÂ¹ÂºÂ¹ÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂºÂºÂ¹ÂºÂ¹ÂºÂ¹ÂºÂ¹ÂºÂºÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂº
+; ÂºÂ¹|Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯|Â¹Âº
+; ÂºÂº| ÃœÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   ÃœÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ   ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ |ÂºÂ¹
+; ÂºÂ¹| Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ   ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸ |Â¹Â¹
+; ÂºÂº| Ã›Ã›            Ã›Ã›ÃŸ               Ã›Ã›Ã›     |Â¹Âº
+; ÂºÂº| Ã›Ã›            Ã›Ã›                Ã›Ã›Ã›     |ÂºÂº
+; ÂºÂº| Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ   Ã›Ã›                Ã›Ã›Ã›     |Â¹Â¹
+; Â¹Â¹| ÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Ã›Ã›                Ã›Ã›Ã›     |Â¹Âº
+; ÂºÂ¹|          Ã›Ã›   Ã›Ã›                Ã›Ã›Ã›     |Â¹Â¹
+; ÂºÂº|          Ã›Ã›   Ã›Ã›Ãœ               Ã›Ã›Ã›     |Â¹Â¹
+; Â¹Â¹| ÃœÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ       Ã›Ã›Ã›     |Â¹Âº
+; ÂºÂº| Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ   ÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ       ÃŸÃ›ÃŸ     |ÂºÂº
+; Â¹Â¹|                                         |Â¹Â¹
+; ÂºÂ¹|                home of secret reversersÂ®|ÂºÂ¹
+; Â¹Â¹|_________________________________________|Â¹Â¹
+; CreateFile ReadFile WriteFile UygulamasÄ± 2
 ; _______________________________________________________________________________
 ; Yazar		: BlueDeviL <bluedevil@sctzine.com>
 ; Tester	: ErrorInside <errorinside@sctzine.com>
 ; IDE		: RADAssembler v2.2.2.2 <http://masm32.com/board/index.php?board=24.0>
 ; Taslak	: BlueDeviL // SCT
 ; Tarih  	: 05.05.2017
-; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+; Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯
 ;																  www.sctzine.com
 TITLE  [SCT]CreateFile ReadFile WriteFile Uygulamasi 2			  (CreateReadWrite2.asm)
-.386					;kullandığımız opcodeların hangi işlemci setine bağlı olduğu
-.model flat, stdcall	;32 bit hafıza modeli
-option casemap :none	;büyük küçük harfe duyarlı
+.386					;kullandÃ½Ã°Ã½mÃ½z opcodelarÃ½n hangi iÃ¾lemci setine baÃ°lÃ½ olduÃ°u
+.model flat, stdcall	;32 bit hafÃ½za modeli
+option casemap :none	;bÃ¼yÃ¼k kÃ¼Ã§Ã¼k harfe duyarlÃ½
 
 
 include CreateReadWrite2.Inc
@@ -33,17 +33,17 @@ include CreateReadWrite2.Inc
 .code
 start:
 	call main
-	inkey											;çıkmadan önce bekle
+	inkey											;Ã§Ã½kmadan Ã¶nce bekle
 	exit
 	
 main proc
-	invoke SetConsoleTitle,offset konsolBaslik		;Konsolumuza başlık koyalım
-	invoke ClearScreen								;ekranı temizler
+	invoke SetConsoleTitle,offset konsolBaslik		;Konsolumuza baÃ¾lÃ½k koyalÃ½m
+	invoke ClearScreen								;ekranÃ½ temizler
 	print offset sctGS
 	
 	invoke CreateFile,offset pDosyaYolu,GENERIC_READ or GENERIC_WRITE,FILE_SHARE_READ or FILE_SHARE_WRITE,0,OPEN_ALWAYS,FILE_ATTRIBUTE_NORMAL,NULL
 	mov hDosya,eax
-	invoke GetLastError								;Hata Kodu Döndürür.
+	invoke GetLastError								;Hata Kodu DÃ¶ndÃ¼rÃ¼r.
 	.if eax == INVALID_HANDLE_VALUE
 		print cat$(chr$("[ HATA  ] * Dosya acmada hata. Hata Kodu: "), str$(eax),chr$(13,10))
 	.elseif eax == ERROR_FILE_EXISTS
@@ -54,17 +54,17 @@ main proc
 		print cat$(chr$("[ UYARI ] * Dosya zaten yaratilmis! Hata Kodu: "), str$(eax),chr$(13,10))
 		invoke ReadFile,hDosya,offset genelTampon,100,offset NumOfBytesRead,NULL
 		invoke StdOut,offset genelTampon
-		invoke CloseHandle,hDosya					;handle'ı kapatmayı unutmayalım
+		invoke CloseHandle,hDosya					;handle'Ã½ kapatmayÃ½ unutmayalÃ½m
 	.else
-		invoke lstrlen,offset strMetin				;yazdıracağımız metnin uzunluğunu eax'e döndürüyor
+		invoke lstrlen,offset strMetin				;yazdÃ½racaÃ°Ã½mÃ½z metnin uzunluÃ°unu eax'e dÃ¶ndÃ¼rÃ¼yor
 		mov intUzunluk,eax
 		invoke WriteFile,hDosya,offset strMetin,eax,offset NumOfBytesWritten,NULL
-		invoke SetFilePointerEx,hDosya,NULL,NULL,FILE_BEGIN,0	;WriteFile ile metni yazdırdıktan sonra file pointer dosyanın sonunda
-																;pointer'ı dosyanın en başına aldırıyorum
-																;böylece okuma işlemini en başından yapacağım
+		invoke SetFilePointerEx,hDosya,NULL,NULL,FILE_BEGIN,0	;WriteFile ile metni yazdÃ½rdÃ½ktan sonra file pointer dosyanÃ½n sonunda
+																;pointer'Ã½ dosyanÃ½n en baÃ¾Ã½na aldÃ½rÃ½yorum
+																;bÃ¶ylece okuma iÃ¾lemini en baÃ¾Ã½ndan yapacaÃ°Ã½m
 		invoke ReadFile,hDosya,offset genelTampon,intUzunluk,offset NumOfBytesRead,NULL
 		invoke StdOut,offset genelTampon
-		invoke CloseHandle,hDosya					;handle'ı kapatmayı unutmayalım
+		invoke CloseHandle,hDosya					;handle'Ã½ kapatmayÃ½ unutmayalÃ½m
 	.endif
 	
 	ret
