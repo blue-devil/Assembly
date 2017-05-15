@@ -1,0 +1,60 @@
+; ººº¹¹º¹º¹º¹º¹¹¹ººº¹º¹º¹º¹ººº¹º¹¹¹º¹º¹¹¹º¹º¹¹¹ºº
+; º¹|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¹º
+; ºº| ÜÜÛÛÛÛÛÛÛÛÛ   ÜÜÛÛÛÛÛÛÛÜÜ   ÜÛÛÛÛÛÛÛÛÛÜ |º¹
+; º¹| ÛÛÛÛÛÛÛÛÛßß   ÛÛÛÛÛÛÛÛÛßß   ßÛÛÛÛÛÛÛÛÛß |¹¹
+; ºº| ÛÛ            ÛÛß               ÛÛÛ     |¹º
+; ºº| ÛÛ            ÛÛ                ÛÛÛ     |ºº
+; ºº| ÛÛÛÛÛÛÛÛÛÜÜ   ÛÛ                ÛÛÛ     |¹¹
+; ¹¹| ßßÛÛÛÛÛÛÛÛÛ   ÛÛ                ÛÛÛ     |¹º
+; º¹|          ÛÛ   ÛÛ                ÛÛÛ     |¹¹
+; ºº|          ÛÛ   ÛÛÜ               ÛÛÛ     |¹¹
+; ¹¹| ÜÜÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛÜÜ       ÛÛÛ     |¹º
+; ºº| ÛÛÛÛÛÛÛÛÛßß   ßßÛÛÛÛÛÛÛßß       ßÛß     |ºº
+; ¹¹|                                         |¹¹
+; º¹|                home of secret reversers®|º¹
+; ¹¹|_________________________________________|¹¹
+; Bellek Ayirma Yordamlari Uygulamasi
+; _______________________________________________________________________________
+; Yazar		: BlueDeviL <bluedevil@sctzine.com>
+; Tester	: ErrorInside <errorinside@sctzine.com>
+; IDE		: RADAssembler v2.2.2.2 <http://masm32.com/board/index.php?board=24.0>
+; Taslak	: BlueDeviL // SCT
+; Tarih  	: 05.05.2017
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;																  www.sctzine.com
+;											 öldürmeyen her darbe güce güç katar!
+
+->	05.05.2017	MemoryAlloc Uygulaması Taslağı
+				
+	Esenlikler! Bu örnegimizde HeapCreate ile yeni bir yigit-heap yaratabilir Heap
+	Alloc ile bu yigittan bellek blogu ayirabilirsiniz. HeapCreate yerine aslında 
+	GetProcessHeap ile zaten işletim sisteminin bizim için yarattığı yığıtın HANDLE
+	değerini döndürebiliriz.
+	Global ve Local bellek yordamları zaten Heap yordamlarını sarmalayan(wrapper)
+	yordamlardır.
+	VirtualAlloc 32bitlik windows uygulamalarımızda kullanmamız en uygun APIdir.
+	Çağıran proocessin sanal adres uzayında bize yer ayırır. Özellikleri de oldukça
+	gelişmiştir.
+	HeapCreate
+	HeapAlloc
+	HeapLock
+	HeapUnlock
+	HeapFree
+	HeapDestroy
+	GlobalAlloc
+	GlobalLock
+	GlobalUnlock
+	GlobalFree
+	LocalAlloc
+	LocalLock
+	LocalUnlock
+	LocalFree
+	VirtualAlloc
+	VirtualLock
+	VirtualUnlock
+	VirtualFree
+	SetFilePointer
+	GetProcessHeap
+	bu örnekte işlediğimiz Windows APIleridir. Bu apileri değişik seçeneklerle
+	uygulayarak ve debug ederek ortaya çıkan sonuçları incelerseniz daha iyi kavramış olursunuz.
+	BlueDeviL // SCT
