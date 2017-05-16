@@ -1,0 +1,30 @@
+; КККЙЙКЙКЙКЙКЙЙЙКККЙКЙКЙКЙКККЙКЙЙЙКЙКЙЙЙКЙКЙЙЙКК
+; КЙ|ЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏ|ЙК
+; КК| ммллллллллл   ммлллллллмм   млллллллллм |КЙ
+; КЙ| лллллллллпп   лллллллллпп   плллллллллп |ЙЙ
+; КК| лл            ллп               ллл     |ЙК
+; КК| лл            лл                ллл     |КК
+; КК| лллллллллмм   лл                ллл     |ЙЙ
+; ЙЙ| ппллллллллл   лл                ллл     |ЙК
+; КЙ|          лл   лл                ллл     |ЙЙ
+; КК|          лл   ллм               ллл     |ЙЙ
+; ЙЙ| ммллллллллл   лллллллллмм       ллл     |ЙК
+; КК| лллллллллпп   пплллллллпп       плп     |КК
+; ЙЙ|                                         |ЙЙ
+; КЙ|                home of secret reversersЎ|КЙ
+; ЙЙ|_________________________________________|ЙЙ
+; Concatenate2Str2 Uygulamas§ Tasla№§
+; _______________________________________________________________________________
+; Yazar		: BlueDeviL <bluedevil@sctzine.com>
+; Tester	: ErrorInside <errorinside@sctzine.com>
+; IDE		: RADAssembler v2.2.2.2 <http://masm32.com/board/index.php?board=24.0>
+; Taslak	: BlueDeviL // SCT
+; Tarih  	: 16.05.2017
+; ЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏ
+;																  www.sctzine.com
+;											 іldќrmeyen her darbe gќce gќч katar!
+
+->	16.05.2017	Concatenate2Str2 Uygulamas§ Tasla№§
+				
+	Esenlikler! Bu da daha іnce paylaўt§№§m іrne№in ikincisi. Farkl§ bir yaklaў§m.
+	BlueDeviL // SCT
