@@ -1,0 +1,18 @@
+#define pencere 101
+#define grpAdSerial 1002
+#define lblLink 1007
+#define btnKapat 1008
+#define btnHakkinda 1009
+#define aniLogo 1012
+pencere DIALOGEX 6,6,346,211
+CAPTION "[SCT]Gif Viewer with AniGIF Library"
+FONT 8,"MS Sans Serif",0,0
+STYLE 0x90CA0A03
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "",grpAdSerial,"Button",0x50000007,2,3,342,198,0x00000000
+  CONTROL "http://www.sctzine.com/",lblLink,"Static",0x50001100,4,197,84,11,0x00000000
+  CONTROL "X",btnKapat,"Button",0x50010000,324,193,17,15,0x00000000
+  CONTROL "?",btnHakkinda,"Button",0x50010000,304,193,17,15,0x00000000
+  CONTROL "#501",aniLogo,"AniGIF",0x50000000,6,3,333,184,0x00000000
+END

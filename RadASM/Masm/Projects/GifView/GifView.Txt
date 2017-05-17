@@ -1,0 +1,30 @@
+; ЬЮЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЪЮ?
+; Ь?кФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ?Ь?
+; Ь?? ммллллллллл   ммлллллллмм   млллллллллм ?Ь?
+; Ь?? лллллллллпп   лллллллллпп   плллллллллп ?Ь?
+; Ь?? лл            ллп               ллл     ?Ь?
+; Ь?? лл            лл                ллл     ?Ь?
+; Ь?? лллллллллмм   лл                ллл     ?Ь?
+; Ь?? ппллллллллл   лл                ллл     ?Ь?
+; Ь??          лл   лл                ллл     ?Ь?
+; Ь??          лл   ллм               ллл     ?Ь?
+; Ь?? ммллллллллл   лллллллллмм       ллл     ?Ь?
+; Ь?? лллллллллпп   пплллллллпп       плп     ?Ь?
+; Ь??                                         ?Ь?
+; Ь??                home of secret reversersЎ?Ь?
+; Ь?УФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФ?Ь?
+; [SCT] Gif Viewer with AniGIF Library
+; _______________________________________________________________________________
+; Yazar		: BlueDeviL <bluedevil@sctzine.com>
+; Tester	: Error§nside <errorinside@sctzine.com>
+; IDE		: RADAssembler v2.2.2.2 <http://masm32.com/board/index.php?board=24.0>
+; Taslak	: BlueDeviL // SCT
+; Tarih		: 17/05/2017
+; ЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏЏ
+;																  www.sctzine.com
+
+->	17.05.2017	[SCT] Gif Viewer with AniGIF Library
+
+	Esen! - Hello!
+	This small application views animated GIF files using AniGIF library 
+	Blue DeviL // SCT 2017
