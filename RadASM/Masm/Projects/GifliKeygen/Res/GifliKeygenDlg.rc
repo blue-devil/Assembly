@@ -1,0 +1,30 @@
+#define pencere 101
+#define grpAdSerial 1002
+#define lblAd 1003
+#define lblSerial 1004
+#define lblLink 1007
+#define edtAd 1005
+#define edtSerial 1006
+#define btnKapat 1008
+#define btnHakkinda 1009
+#define btnKopyala 1010
+#define btnUret 1011
+#define aniLogo 1012
+pencere DIALOGEX 6,6,336,263
+CAPTION "[SCT]Keygen Template 2017"
+FONT 8,"MS Sans Serif",0,0
+STYLE 0x90CA0A03
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "",grpAdSerial,"Button",0x50000007,2,180,332,72,0x00000000
+  CONTROL "Ad:",lblAd,"Static",0x50000000,6,193,22,13,0x00000000
+  CONTROL "Serial:",lblSerial,"Static",0x50000000,6,208,22,13,0x00000000
+  CONTROL "http://www.sctzine.com/",lblLink,"Static",0x50001100,4,247,84,11,0x00000000
+  CONTROL "",edtAd,"Edit",0x50010000,30,192,300,13,0x00000200
+  CONTROL "",edtSerial,"Edit",0x50010000,30,208,300,13,0x00000200
+  CONTROL "X",btnKapat,"Button",0x50010000,312,232,17,15,0x00000000
+  CONTROL "?",btnHakkinda,"Button",0x50010000,292,232,17,15,0x00000000
+  CONTROL "C",btnKopyala,"Button",0x50010000,272,232,17,15,0x00000000
+  CONTROL "Üret",btnUret,"Button",0x50010000,232,232,37,15,0x00000000
+  CONTROL "#501",aniLogo,"AniGIF",0x50000000,2,3,333,172,0x00000000
+END

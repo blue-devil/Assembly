@@ -1,0 +1,40 @@
+; ÌÎÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÎ?
+; Ì?ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?Ì?
+; Ì?? ÜÜÛÛÛÛÛÛÛÛÛ   ÜÜÛÛÛÛÛÛÛÜÜ   ÜÛÛÛÛÛÛÛÛÛÜ ?Ì?
+; Ì?? ÛÛÛÛÛÛÛÛÛßß   ÛÛÛÛÛÛÛÛÛßß   ßÛÛÛÛÛÛÛÛÛß ?Ì?
+; Ì?? ÛÛ            ÛÛß               ÛÛÛ     ?Ì?
+; Ì?? ÛÛ            ÛÛ                ÛÛÛ     ?Ì?
+; Ì?? ÛÛÛÛÛÛÛÛÛÜÜ   ÛÛ                ÛÛÛ     ?Ì?
+; Ì?? ßßÛÛÛÛÛÛÛÛÛ   ÛÛ                ÛÛÛ     ?Ì?
+; Ì??          ÛÛ   ÛÛ                ÛÛÛ     ?Ì?
+; Ì??          ÛÛ   ÛÛÜ               ÛÛÛ     ?Ì?
+; Ì?? ÜÜÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛÜÜ       ÛÛÛ     ?Ì?
+; Ì?? ÛÛÛÛÛÛÛÛÛßß   ßßÛÛÛÛÛÛÛßß       ßÛß     ?Ì?
+; Ì??                                         ?Ì?
+; Ì??                home of secret reversers®?Ì?
+; Ì?ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ?Ì?
+; [SCT] Keygen Template 2017 for SCTZine
+; _______________________________________________________________________________
+; Yazar		: BlueDeviL <bluedevil@sctzine.com>
+; Tester	: Errorınside <errorinside@sctzine.com>
+; IDE		: RADAssembler v2.2.2.2 <http://masm32.com/board/index.php?board=24.0>
+; Taslak	: BlueDeviL // SCT
+; Tarih		: 17/05/2017
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;																  www.sctzine.com
+
+->	17.05.2017	[SCT] Keygen Template 2016 for SCTZine
+
+	Esen! Keygen yazma/ hazırlama işlerini biraz daha hızlandırmak adına bir tazla
+	Rnd0M bugüm bir mesaj gönderdi. Keygenlerde hareketli GIF kullanmak istiyordu.
+	Açıkçası hiç elimde böyle bir örnek yoktu. Zaten sistem programlama çalıştığım
+	için böyle şeylere pek gereksinim duymuyorum. Neyse Rnd0M için biraz arştırma 
+	yaptım ve işin gözüktüğünden çok dahafarklı olduğunu gördüm. Biz GIFleri resim
+	olarak görüyoruz ancak Assemly onu RCDATA olarak görüyor. Ayrıca yerleşik bir 
+	yordam ile ya da GDI yordamlarıyla yapılabiliyor mu çözemedim. Ancak bir tane 
+	harici kitaplık buldum. o kitaplığı projeye ekleyince çok hızlı bir şekilde is
+	tediğimiz GIFleri oynatabilir hale geldik. Aksi halde GIF'i data olarak açıp i
+	çindeki frameleri çözümleyip-sayıp arka arkaya oynatacak bir fonksiyon karalam
+	ak gerekecekti gibi duruyor. Umarım iş görür.
+	İyi çalışmalar.
+	Blue DeviL // SCT 2017

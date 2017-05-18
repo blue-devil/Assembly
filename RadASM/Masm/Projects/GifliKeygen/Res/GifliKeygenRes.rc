@@ -1,0 +1,8 @@
+#define ikon							5001
+#define muzik							500
+#define MANIFEST 						24
+#define logoGif							501
+ikon					ICON      DISCARDABLE "Res/sct1.ico"
+muzik					RCDATA    DISCARDABLE "Res/music.xm"
+1						MANIFEST  DISCARDABLE "Res/manifest.xml"
+logoGif					RCDATA    DISCARDABLE "Res/hataoruBlueDevil.gif"
