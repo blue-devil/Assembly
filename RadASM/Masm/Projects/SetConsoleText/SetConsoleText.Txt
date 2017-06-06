@@ -1,0 +1,107 @@
+; ººº¹¹º¹º¹º¹º¹¹¹ººº¹º¹º¹º¹ººº¹º¹¹¹º¹º¹¹¹º¹º¹¹¹ºº
+; º¹|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¹º
+; ºº| ÜÜÛÛÛÛÛÛÛÛÛ   ÜÜÛÛÛÛÛÛÛÜÜ   ÜÛÛÛÛÛÛÛÛÛÜ |º¹
+; º¹| ÛÛÛÛÛÛÛÛÛßß   ÛÛÛÛÛÛÛÛÛßß   ßÛÛÛÛÛÛÛÛÛß |¹¹
+; ºº| ÛÛ            ÛÛß               ÛÛÛ     |¹º
+; ºº| ÛÛ            ÛÛ                ÛÛÛ     |ºº
+; ºº| ÛÛÛÛÛÛÛÛÛÜÜ   ÛÛ                ÛÛÛ     |¹¹
+; ¹¹| ßßÛÛÛÛÛÛÛÛÛ   ÛÛ                ÛÛÛ     |¹º
+; º¹|          ÛÛ   ÛÛ                ÛÛÛ     |¹¹
+; ºº|          ÛÛ   ÛÛÜ               ÛÛÛ     |¹¹
+; ¹¹| ÜÜÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛÜÜ       ÛÛÛ     |¹º
+; ºº| ÛÛÛÛÛÛÛÛÛßß   ßßÛÛÛÛÛÛÛßß       ßÛß     |ºº
+; ¹¹|                                         |¹¹
+; º¹|                home of secret reversers®|º¹
+; ¹¹|_________________________________________|¹¹
+; SetConsoleText Uygulaması Taslağı
+; _______________________________________________________________________________
+; Yazar		: BlueDeviL <bluedevil@sctzine.com>
+; Tester	: ErrorInside <errorinside@sctzine.com>
+; IDE		: RADAssembler v2.2.2.2 <http://masm32.com/board/index.php?board=24.0>
+; Taslak	: BlueDeviL // SCT
+; Tarih  	: 05.06.2017
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;																  www.sctzine.com
+;											 öldürmeyen her darbe güce güç katar!
+
+->	05.06.2017	SetConsoleText Uygulaması Taslağı
+				
+	Esenlikler! 
+	Esen!
+	Sıkıcı siyah + gri komut satırından siz de benim gibi sıkıldıysanız bu ders a
+	radığınız şey: Assembly ile komut satırını renklendirmek. Bunun için <a href=
+	"https://msdn.microsoft.com/en-us/library/windows/desktop/ms686047(v=vs.85).a
+	spx">SetConsoleTextAttribute</a> APIsini kullanacağız.
+ 
+	BOOL WINAPI SetConsoleTextAttribute(
+	  _In_ HANDLE hConsoleOutput,
+	  _In_ WORD   wAttributes
+	)
+	hConsoleOutput konsol ekranının tamponunun tutamağı. Komut satırı en azından 
+	GENERIC_READ modundan açılmış olmalı.
+	wAttributes ile renk ataması yapılıyor. Aslında tam doğrusu karakter davranış
+	ları atanıyor:
+	
+	Attribute	                  Meaning
+	FOREGROUND_BLUE             Text color contains blue.
+	FOREGROUND_GREEN            Text color contains green.
+	FOREGROUND_RED              Text color contains red.
+	FOREGROUND_INTENSITY        Text color is intensified.
+	BACKGROUND_BLUE             Background color contains blue.
+	BACKGROUND_GREEN            Background color contains green.
+	BACKGROUND_RED              Background color contains red.
+	BACKGROUND_INTENSITY        Background color is intensified.
+	COMMON_LVB_LEADING_BYTE     Leading byte.
+	COMMON_LVB_TRAILING_BYTE    Trailing byte.
+	COMMON_LVB_GRID_HORIZONTAL  Top horizontal.
+	COMMON_LVB_GRID_LVERTICAL   Left vertical.
+	COMMON_LVB_GRID_RVERTICAL   Right vertical.
+	COMMON_LVB_REVERSE_VIDEO    Reverse foreground and background attributes.
+	COMMON_LVB_UNDERSCORE       Underscore.
+
+	Ben bir uygulama yazdım onun üzerinden anlatayım:
+ 
+	SetConsoleTextColor proc fore:DWORD,back:DWORD
+
+    LOCAL hStdOut:DWORD
+
+    invoke GetStdHandle,STD_OUTPUT_HANDLE
+    mov   hStdOut,eax
+    mov   eax,back
+    shl   eax,4
+    or    eax,fore
+    invoke SetConsoleTextAttribute,hStdOut,eax
+    ret
+   
+	SetConsoleTextColor endp
+	Arkadaşlar GetStdHandle ile üzerinde çalıştığımız konsolun tutamğını döndürüyoruz.
+	Böylece SetConsoleTextAttribute APIsi için gerekli olan tutamağı elde etmiş oluyor
+	uz geriye son bir parametre kalıyor o da renk değerimiz. Yani yukardaki kodda SetC
+	onsoleTextAttribute APIsinin sonundaki eax aslında rengi belirtiyor. Yukarıdaki Wi
+	ndows sabitleri ile metnin arka yüzünü ya da ön yüzünü değiştirebiliyoruz. Bu sabi
+	tleri birbirleriyle karıştırıp ara renkler de elde edilebiliyor. Tabi bu sabitleri
+	aslında sayısal değerlere denk geliyor işlemci seviyesinde ve ben sizin için bu de
+	ğerleri çıkarttım:
+	0 = black
+    1 = koyu mavi
+    2 = koyu yeşil
+    3 = koyu turkuaz
+    4 = koyu kızıl
+    5 = koyu morumsu(magenta)
+    6 = kirli sarı
+    7 = gri -> normal metin
+    8 = koyu gri
+    9 = parlak mavi
+    0Ah = parlak yeşil
+    0Bh = parlak turkuaz
+    0Ch = parlak kızıl
+    0Dh = parlak morumsu(magenta)
+    0Eh = parlak sarı
+    0Fh = parlak beyaz</pre>
+	RadASM ile kodlama yapıyorsanız sondaki altı karakteri benim yazdığım gibi onaltıl
+	ık da yazabilirsiniz, normalk onluk da yazabilirsiniz. Burada ben bu renkleri dene
+	yerek adlandırdım. Belgelendirme de benim koyu yazdıklarıma ya da parlak yazdıklar
+	ıma normal diyor olabilir. Çok takılmayın =)
+
+
+	BlueDeviL // SCT
