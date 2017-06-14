@@ -1,0 +1,3 @@
+#define MANIFEST 						24
+#define osVersion						1
+osVersion				MANIFEST  DISCARDABLE "Res/GetVersionWinX.xml"
