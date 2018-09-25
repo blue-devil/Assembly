@@ -1,28 +1,28 @@
-; ººº¹¹º¹º¹º¹º¹¹¹ººº¹º¹º¹º¹ººº¹º¹¹¹º¹º¹¹¹º¹º¹¹¹ºº
-; º¹|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¹º
-; ºº| ÜÜÛÛÛÛÛÛÛÛÛ   ÜÜÛÛÛÛÛÛÛÜÜ   ÜÛÛÛÛÛÛÛÛÛÜ |º¹
-; º¹| ÛÛÛÛÛÛÛÛÛßß   ÛÛÛÛÛÛÛÛÛßß   ßÛÛÛÛÛÛÛÛÛß |¹¹
-; ºº| ÛÛ            ÛÛß               ÛÛÛ     |¹º
-; ºº| ÛÛ            ÛÛ                ÛÛÛ     |ºº
-; ºº| ÛÛÛÛÛÛÛÛÛÜÜ   ÛÛ                ÛÛÛ     |¹¹
-; ¹¹| ßßÛÛÛÛÛÛÛÛÛ   ÛÛ                ÛÛÛ     |¹º
-; º¹|          ÛÛ   ÛÛ                ÛÛÛ     |¹¹
-; ºº|          ÛÛ   ÛÛÜ               ÛÛÛ     |¹¹
-; ¹¹| ÜÜÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛÜÜ       ÛÛÛ     |¹º
-; ºº| ÛÛÛÛÛÛÛÛÛßß   ßßÛÛÛÛÛÛÛßß       ßÛß     |ºº
-; ¹¹|                                         |¹¹
-; º¹|                home of secret reversers®|º¹
-; ¹¹|_________________________________________|¹¹
-; CreateFile ReadFile WriteFile Uygulamasý 2
+; ÂºÂºÂºÂ¹Â¹ÂºÂ¹ÂºÂ¹ÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂºÂºÂ¹ÂºÂ¹ÂºÂ¹ÂºÂ¹ÂºÂºÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂº
+; ÂºÂ¹|Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯|Â¹Âº
+; ÂºÂº| ÃœÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   ÃœÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ   ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ |ÂºÂ¹
+; ÂºÂ¹| Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ   ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸ |Â¹Â¹
+; ÂºÂº| Ã›Ã›            Ã›Ã›ÃŸ               Ã›Ã›Ã›     |Â¹Âº
+; ÂºÂº| Ã›Ã›            Ã›Ã›                Ã›Ã›Ã›     |ÂºÂº
+; ÂºÂº| Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ   Ã›Ã›                Ã›Ã›Ã›     |Â¹Â¹
+; Â¹Â¹| ÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Ã›Ã›                Ã›Ã›Ã›     |Â¹Âº
+; ÂºÂ¹|          Ã›Ã›   Ã›Ã›                Ã›Ã›Ã›     |Â¹Â¹
+; ÂºÂº|          Ã›Ã›   Ã›Ã›Ãœ               Ã›Ã›Ã›     |Â¹Â¹
+; Â¹Â¹| ÃœÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ       Ã›Ã›Ã›     |Â¹Âº
+; ÂºÂº| Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ   ÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ       ÃŸÃ›ÃŸ     |ÂºÂº
+; Â¹Â¹|                                         |Â¹Â¹
+; ÂºÂ¹|                home of secret reversersÂ®|ÂºÂ¹
+; Â¹Â¹|_________________________________________|Â¹Â¹
+; CreateFile ReadFile WriteFile UygulamasÄ± 2
 ; _______________________________________________________________________________
-; Yazar		: BlueDeviL <bluedevil@sctzine.com>
+; Yazar	: BlueDeviL <bluedevil@sctzine.com>
 ; Tester	: ErrorInside <errorinside@sctzine.com>
 ; IDE		: RADAssembler v2.2.2.2 <http://masm32.com/board/index.php?board=24.0>
 ; Taslak	: BlueDeviL // SCT
 ; Tarih  	: 05.05.2017
-; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;																  www.sctzine.com
-TITLE  [SCT]CreateFile ReadFile WriteFile Uygulamasi 1			  (CreateReadWrite.asm)
+; Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯
+;								  www.sctzine.com
+TITLE  [SCT]CreateFile ReadFile WriteFile Uygulamasi 1		(CreateReadWrite.asm)
 .386
 .model flat,stdcall
 option casemap:none
@@ -35,48 +35,48 @@ start:
 	exit
 	
 main proc
-	invoke SetConsoleTitle,offset konsolBaslik		;Konsolumuza baþlýk koyalým
-	invoke ClearScreen								;ekraný temizler
+	invoke SetConsoleTitle,offset konsolBaslik	;Konsolumuza baÅŸlÄ±k koyalÄ±m
+	invoke ClearScreen								;ekranÄ± temizler
 	print offset sctGS
 	
-	push 0						;HANDLE hTemplateFile			NULL olabilir
-								;								GENERIC_READ olarak açýldýðýnda bi template handle verilebilir
-								;								böylece yaratýlýrken geniþletilmiþ özelliklerle yaratýlabilir
-	push 0						;DWORD	dwFlagsAndAttributes	0x80FILE_ATTRIBUTE_NORMAL
-	push 2						;DWORD	dwCreationDisposition	1 ->CREATE_NEW			yeni yaratýr zaten yaratýlmýþsa hata verir
-								;								2 ->CREATE_ALWAYS		yeni yaratýr ve üzerine yazar
-								;								3 ->OPEN_EXISTING		aygýtlar için genelde bu kullanýlýr
-								;								4 ->OPEN_ALWAYS			varolan bir dosyayý açar, bulamazsa hata döndürür
-								;								5 ->TRUNCATE_EXISTING	varolan dosyayý açar ve sýfýrlar,GENERIC_WRITE set edilmelidir
-	push 0						;LPSECURITY_ATTRIBUTES
-	push 3						;DWORD	dwShareMode				0 ->Diðer process'les açýlan bu dosya üzerinde iþlem yapamazlar
-								;								1 ->FILE_SHARE_READ		diðer processlerde okuyabilir
-								;								2 ->FILE_SHARE_WRITE	yazabilir
-								;								3						hem okuyup hem yazabilir
-								;								4 ->FILE_SHARE_DELETE	silebilir
-	push 0C0000000h				;DWORD	dwDesiredAccess			GENERIC_READ | GENERIC_WRITE
+	push 0				;HANDLE hTemplateFile		NULL olabilir
+					;			GENERIC_READ olarak aÃ§Ä±ldÄ±ÄŸÄ±nda bi template handle verilebilir
+					;			bÃ¶ylece yaratÄ±lÄ±rken geniÅŸletilmiÅŸ Ã¶zelliklerle yaratÄ±labilir
+	push 0				;DWORD	dwFlagsAndAttributes	0x80FILE_ATTRIBUTE_NORMAL
+	push 2				;DWORD	dwCreationDisposition	1 ->CREATE_NEW	yeni yaratÄ±r zaten yaratÄ±lmÄ±ÅŸsa hata verir
+					;				2 ->CREATE_ALWAYS	yeni yaratÄ±r ve Ã¼zerine yazar
+					;				3 ->OPEN_EXISTING	aygÄ±tlar iÃ§in genelde bu kullanÄ±lÄ±r
+					;				4 ->OPEN_ALWAYS		varolan bir dosyayÄ± aÃ§ar, bulamazsa hata dÃ¶ndÃ¼rÃ¼r
+					;				5 ->TRUNCATE_EXISTING	varolan dosyayÄ± aÃ§ar ve sÄ±fÄ±rlar,GENERIC_WRITE set edilmelidir
+	push 0				;LPSECURITY_ATTRIBUTES
+	push 3				;DWORD	dwShareMode		0 ->DiÄŸer process'les aÃ§Ä±lan bu dosya Ã¼zerinde iÅŸlem yapamazlar
+					;				1 ->FILE_SHARE_READ	diÄŸer processlerde okuyabilir
+					;				2 ->FILE_SHARE_WRITE	yazabilir
+					;				3			hem okuyup hem yazabilir
+					;				4 ->FILE_SHARE_DELETE	silebilir
+	push 0C0000000h			;DWORD	dwDesiredAccess		GENERIC_READ | GENERIC_WRITE
 	push offset dosyaYolu		;LPCTSTR	lpFileName
 	call CreateFile
-								;invoke CreateFile, offset dosyaYolu,GENERIC_READ | GENERIC_WRITE,NULL,NULL,CREATE_ALWAYS,NULL,NULL
-								;Baþarýlý -> dosya, aygýt, named pipe, mail slot ne açýldýysa onun handle'ý döndürür
-								;Baþarýsýz-> INVALID_HANDLE_VALUE döndürür.
+					;invoke CreateFile, offset dosyaYolu,GENERIC_READ | GENERIC_WRITE,NULL,NULL,CREATE_ALWAYS,NULL,NULL
+					;BaÅŸarÄ±lÄ± -> dosya, aygÄ±t, named pipe, mail slot ne aÃ§Ä±ldÄ±ysa onun handle'Ä± dÃ¶ndÃ¼rÃ¼r
+					;BaÅŸarÄ±sÄ±z-> INVALID_HANDLE_VALUE dÃ¶ndÃ¼rÃ¼r.
 	cmp eax, INVALID_HANDLE_VALUE
 	je _acilamadi
-	mov hDosya,eax				;acýlanýn HANDLE deðeri
+	mov hDosya,eax			;acÄ±lanÄ±n HANDLE deÄŸeri
 	print cfm$("\t01. Yazmak icin sorunsuz acildi",13,10)
 	
 	push offset dosyaMetin
-	call lstrlen				;yazýlacak metnin uzunluðu
-								;invoke lstrlen,offset dosyaMetin ;bu da yukarýdaki iki satýrýn aynýsý
+	call lstrlen			;yazÄ±lacak metnin uzunluÄŸu
+					;invoke lstrlen,offset dosyaMetin ;bu da yukarÄ±daki iki satÄ±rÄ±n aynÄ±sÄ±
 	
 	push 0
-	push offset NumOfBytesWritten;LPDWORD	lpNumberOfBytesWritten-senkron dosya handle'ndan gelen okunan bayt uzunluðu göstergecidir.
-																;Asenkron ise NULL yapýlabilir
-	push eax					;DWORD		nNumberOfBytesToWrite-aygýt veya dosyaya yazýlacak verinin büyüklüðü
-	push offset dosyaMetin		;LPCVOID	lpBuffer			ne yazýlacaksa bu göstergeç onu saklýyor
-	push hDosya					;HANDLE		hFile				CreateFile ile açýlan dosya/aygýt/pipe handle deðeri
+	push offset NumOfBytesWritten;LPDWORD	lpNumberOfBytesWritten-senkron dosya handle'ndan gelen okunan bayt uzunluÄŸu gÃ¶stergecidir.
+					;Asenkron ise NULL yapÄ±labilir
+	push eax			;DWORD		nNumberOfBytesToWrite-aygÄ±t veya dosyaya yazÄ±lacak verinin bÃ¼yÃ¼klÃ¼ÄŸÃ¼
+	push offset dosyaMetin		;LPCVOID	lpBuffer	ne yazÄ±lacaksa bu gÃ¶stergeÃ§ onu saklÄ±yor
+	push hDosya			;HANDLE		hFile		CreateFile ile aÃ§Ä±lan dosya/aygÄ±t/pipe handle deÄŸeri
 	call WriteFile
-								;invoke WriteFile,hDosya,offset dosyaMetin,eax,offset NumOfBytesWritten,0
+					;invoke WriteFile,hDosya,offset dosyaMetin,eax,offset NumOfBytesWritten,0
 	print cfm$("\t02. WriteFile txt dosyasina yazdi",13,10)
 	push hDosya
 	call CloseHandle
@@ -89,15 +89,15 @@ main proc
 	invoke GlobalLock,hBellek
 	mov dosyaOkunan,eax
 	
-	push 0						;LPOVERRLAPPED	lpOverlapped	OVERLAPPED yapýsýna göstergeç-pointer
-	push offset NumOfBytesRead	;LPDWORD	lpNumberOfBytesRead	senkron dosya handle'ndan gelen okunan bayt uzunluðu göstergecidir.Asenkron ise NULL yapýlabilir
-	push BELLEKALANI-1			;DWORD		nNumberOfBytesToRead-okunabilecek max bayt büyüklüðü
-	push dosyaOkunan			;LPVOID		lpBuffer			dosya ya da aygýttan okunan bu göstergecin göstereceði alana yazýlacak
-	push hDosya					;HANDLE		hFile				CreateFile ile açýlan dosya/aygýt/pipe handle deðeri
+	push 0				;LPOVERRLAPPED	lpOverlapped	OVERLAPPED yapÄ±sÄ±na gÃ¶stergeÃ§-pointer
+	push offset NumOfBytesRead	;LPDWORD	lpNumberOfBytesRead	senkron dosya handle'ndan gelen okunan bayt uzunluÄŸu gÃ¶stergecidir.Asenkron ise NULL yapÄ±labilir
+	push BELLEKALANI-1		;DWORD		nNumberOfBytesToRead-okunabilecek max bayt bÃ¼yÃ¼klÃ¼ÄŸÃ¼
+	push dosyaOkunan		;LPVOID		lpBuffer			dosya ya da aygÄ±ttan okunan bu gÃ¶stergecin gÃ¶stereceÄŸi alana yazÄ±lacak
+	push hDosya			;HANDLE		hFile				CreateFile ile aÃ§Ä±lan dosya/aygÄ±t/pipe handle deÄŸeri
 	call ReadFile			
-								;invoke ReadFile,hDosya,offset dosyaOkunan,15,offset NumOfBytesRead,0
+					;invoke ReadFile,hDosya,offset dosyaOkunan,15,offset NumOfBytesRead,0
 	;invoke StdOut, dosyaOkunan
-	print chr$(9)				;9-> sekme
+	print chr$(9)			;9-> sekme
 	print dosyaOkunan
 	
 	invoke GlobalUnlock,hBellek
@@ -109,7 +109,7 @@ main proc
 	jmp _cikis
 	
 	_acilamadi:
-	print cat$(cfm$("\tDosya bulunamadý: "), str$(eax), chr$(13,10))
+	print cat$(cfm$("\tDosya bulunamadÄ±: "), str$(eax), chr$(13,10))
 	
 	_cikis:
 	inkey
