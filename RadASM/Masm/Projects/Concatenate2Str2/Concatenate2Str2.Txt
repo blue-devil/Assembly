@@ -21,8 +21,8 @@
 ; Taslak	: BlueDeviL // SCT
 ; Tarih  	: 16.05.2017
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;							www.sctzine.com
-;							öldürmeyen her darbe güce güç katar!
+;								www.sctzine.com
+;						öldürmeyen her darbe güce güç katar!
 
 ->	16.05.2017	Concatenate2Str2
 				
