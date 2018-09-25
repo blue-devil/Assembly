@@ -23,7 +23,8 @@ includelib kernel32.lib
 .const
 	MAXSIZE			equ	512
 
-;deðiþkenlerimiz
+; _______________________________________________________________________________
+;   initialized variables
 .data
 	sctGS			db	"        ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿",13,10
 				db	"      ÚÄÙ                                                                 ÀÄ¿",13,10
@@ -56,7 +57,9 @@ includelib kernel32.lib
 	strNum03		db	"third grasshopper jumps, ",0
 	strNum04		db	"fourth drinks red wine like a gentleman.",13,10,0
 	hello			db	"Hello my name is j00n",13,10,0
-;veribüyüklüðü belli olmayan deðiþkenler
+
+; _______________________________________________________________________________
+;   uninitialized variables
 .data?
 	myLength		DWORD	?
 	myStrContainer		db MAXSIZE dup(?)
