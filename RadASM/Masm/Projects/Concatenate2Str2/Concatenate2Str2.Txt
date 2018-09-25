@@ -1,30 +1,30 @@
-; ººº¹¹º¹º¹º¹º¹¹¹ººº¹º¹º¹º¹ººº¹º¹¹¹º¹º¹¹¹º¹º¹¹¹ºº
-; º¹|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¹º
-; ºº| ÜÜÛÛÛÛÛÛÛÛÛ   ÜÜÛÛÛÛÛÛÛÜÜ   ÜÛÛÛÛÛÛÛÛÛÜ |º¹
-; º¹| ÛÛÛÛÛÛÛÛÛßß   ÛÛÛÛÛÛÛÛÛßß   ßÛÛÛÛÛÛÛÛÛß |¹¹
-; ºº| ÛÛ            ÛÛß               ÛÛÛ     |¹º
-; ºº| ÛÛ            ÛÛ                ÛÛÛ     |ºº
-; ºº| ÛÛÛÛÛÛÛÛÛÜÜ   ÛÛ                ÛÛÛ     |¹¹
-; ¹¹| ßßÛÛÛÛÛÛÛÛÛ   ÛÛ                ÛÛÛ     |¹º
-; º¹|          ÛÛ   ÛÛ                ÛÛÛ     |¹¹
-; ºº|          ÛÛ   ÛÛÜ               ÛÛÛ     |¹¹
-; ¹¹| ÜÜÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛÜÜ       ÛÛÛ     |¹º
-; ºº| ÛÛÛÛÛÛÛÛÛßß   ßßÛÛÛÛÛÛÛßß       ßÛß     |ºº
-; ¹¹|                                         |¹¹
-; º¹|                home of secret reversers®|º¹
-; ¹¹|_________________________________________|¹¹
-; Concatenate2Str2 Uygulamasý Taslaðý
+; ÂºÂºÂºÂ¹Â¹ÂºÂ¹ÂºÂ¹ÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂºÂºÂ¹ÂºÂ¹ÂºÂ¹ÂºÂ¹ÂºÂºÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂ¹ÂºÂ¹Â¹Â¹ÂºÂº
+; ÂºÂ¹|Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯|Â¹Âº
+; ÂºÂº| ÃœÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   ÃœÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ   ÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ãœ |ÂºÂ¹
+; ÂºÂ¹| Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ   ÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸ |Â¹Â¹
+; ÂºÂº| Ã›Ã›            Ã›Ã›ÃŸ               Ã›Ã›Ã›     |Â¹Âº
+; ÂºÂº| Ã›Ã›            Ã›Ã›                Ã›Ã›Ã›     |ÂºÂº
+; ÂºÂº| Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ   Ã›Ã›                Ã›Ã›Ã›     |Â¹Â¹
+; Â¹Â¹| ÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Ã›Ã›                Ã›Ã›Ã›     |Â¹Âº
+; ÂºÂ¹|          Ã›Ã›   Ã›Ã›                Ã›Ã›Ã›     |Â¹Â¹
+; ÂºÂº|          Ã›Ã›   Ã›Ã›Ãœ               Ã›Ã›Ã›     |Â¹Â¹
+; Â¹Â¹| ÃœÃœÃ›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›   Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃœÃœ       Ã›Ã›Ã›     |Â¹Âº
+; ÂºÂº| Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ   ÃŸÃŸÃ›Ã›Ã›Ã›Ã›Ã›Ã›ÃŸÃŸ       ÃŸÃ›ÃŸ     |ÂºÂº
+; Â¹Â¹|                                         |Â¹Â¹
+; ÂºÂ¹|                home of secret reversersÂ®|ÂºÂ¹
+; Â¹Â¹|_________________________________________|Â¹Â¹
+; Concatenate2Str2
 ; _______________________________________________________________________________
-; Yazar		: BlueDeviL <bluedevil@sctzine.com>
+; Yazar	: BlueDeviL <bluedevil@sctzine.com>
 ; Tester	: ErrorInside <errorinside@sctzine.com>
 ; IDE		: RADAssembler v2.2.2.2 <http://masm32.com/board/index.php?board=24.0>
 ; Taslak	: BlueDeviL // SCT
 ; Tarih  	: 16.05.2017
-; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;																  www.sctzine.com
-;											 öldürmeyen her darbe güce güç katar!
+; Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯
+;							www.sctzine.com
+;							Ã¶ldÃ¼rmeyen her darbe gÃ¼ce gÃ¼Ã§ katar!
 
-->	16.05.2017	Concatenate2Str2 Uygulamasý Taslaðý
+->	16.05.2017	Concatenate2Str2
 				
-	Esenlikler! Bu da daha önce paylaþtýðým örneðin ikincisi. Farklý bir yaklaþým.
+	Esenlikler! Bu da daha Ã¶nce paylastigim Ã¶rnegin ikincisi. Farkli bir yaklasim.
 	BlueDeviL // SCT
