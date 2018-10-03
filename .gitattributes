@@ -1,0 +1,72 @@
+* text=auto eol=crlf
+
+# sources - kaynaklar
+*.asm encoding=Windows-1252 -text
+*.inc encoding=Windows-1252 -text
+*.def encoding=Windows-1252 -text
+*.rc encoding=Windows-1252 -text
+*.txt encoding=Windows-1252 -text
+*.mak encoding=Windows-1252 -text
+*.tbr encoding=Windows-1252 -text
+*.hla encoding=Windows-1252 -text
+*.hhf encoding=Windows-1252 -text
+*.xml encoding=Windows-1252 -text
+*.idl encoding=Windows-1252 -text
+*.bat encoding=Windows-1252 -text
+*.cpp encoding=Windows-1252 -text
+*.c encoding=Windows-1252 -text
+*.h encoding=Windows-1252 -text
+*.bas encoding=Windows-1252 -text
+*.bi encoding=Windows-1252 -text
+*.php encoding=Windows-1252 -text
+*.html encoding=Windows-1252 -text
+*.htm encoding=Windows-1252 -text
+*.css encoding=Windows-1252 -text
+*.xml encoding=Windows-1252 -text
+*.xsl encoding=Windows-1252 -text
+*.htaccess encoding=Windows-1252 -text
+*.ali encoding=Windows-1252 -text
+*.apj encoding=Windows-1252 -text
+*.brs encoding=Windows-1252 -text
+*.fpj encoding=Windows-1252 -text
+*.glo encoding=Windows-1252 -text
+*.hhc encoding=Windows-1252 -text
+*.hhk encoding=Windows-1252 -text
+*.hhp encoding=Windows-1252 -text
+*.htt encoding=Windows-1252 -text
+*.ign encoding=Windows-1252 -text
+*.js encoding=Windows-1252 -text
+*.lng encoding=Windows-1252 -text
+*.phr encoding=Windows-1252 -text
+*.pss encoding=Windows-1252 -text
+*.xpj encoding=Windows-1252 -text
+*.ssl encoding=Windows-1252 -text
+*.stp encoding=Windows-1252 -text
+*.syn encoding=Windows-1252 -text
+*.bat encoding=Windows-1252 -text
+*.skn encoding=Windows-1252 -text
+*.nfo encoding=Windows-1252 -text
+
+# binary files
+*.dlg binary
+*.mnu binary
+*.bmp binary
+*.gif binary
+*.ico binary
+*.cur binary
+*.obj binary
+*.dll binary
+*.lib binary
+*.avi binary
+*.tlb binary
+*.cpd binary
+*.ldb binary
+*.png binary
+*.jpg binary
+*.chm binary
+*.zip binary
+*.rar binary
+*.res binary
+*.obj binary
+*.xm binary
+*.midi binary
